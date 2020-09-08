@@ -29,10 +29,11 @@ ul {
 
 .main{  
   display: flex;
+  justify-content: space-around;
 }
 
 .left-side{
-  width: 12%;
+  width: 15%;
   display: flex;
   flex-direction: column;
   padding: 2em;
@@ -47,7 +48,7 @@ ul {
 }
 
 .middle-article{  
-  width: 25%;
+  width: 32%;
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -72,8 +73,33 @@ ul {
 }
 
 .right-article{  
-  width: 25%;
+  width: 32%;
   padding: 2em;
   display: flex;
   flex-direction: column;
+}
+
+.login{
+  width: 15%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form{
+  padding: 2em;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-button{
+  background-color: #017CFF;
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  border: none;
+  border-radius: 0.3em;
 }
