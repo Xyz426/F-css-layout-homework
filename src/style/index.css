@@ -18,3 +18,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: #A1A9B0;
+  padding: 1em;
+}
