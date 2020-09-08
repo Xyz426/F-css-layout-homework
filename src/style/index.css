@@ -26,3 +26,23 @@ ul {
   color: #A1A9B0;
   padding: 1em;
 }
+
+.main{
+  padding: 2em;
+}
+
+.left-side{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about{
+  background-color: #F8F9FA;
+}
+
+.archives{
+  padding-top: 1em;
+}
+
+
