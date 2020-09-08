@@ -63,10 +63,17 @@ ul {
 .article{
   border: 1px solid #F2F2F2;
   box-shadow: 0 0 2px gray;
-  padding-bottom: 1em;
+  padding: 1em;
   margin-bottom: 1em;
 }
 
 .href{
   color: #3F97FE;
+}
+
+.right-article{  
+  width: 25%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
 }
