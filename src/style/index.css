@@ -80,7 +80,7 @@ ul {
 }
 
 .login{
-  width: 15%;
+  width: 18%;
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -93,6 +93,13 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.input{
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.3em;
+  margin: 0.1em;
 }
 
 .sign-button{
@@ -111,7 +118,6 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: #F2F2F2;
-  margin-bottom: 0;
 }
 
 .footer p{
